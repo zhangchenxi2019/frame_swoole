@@ -1,0 +1,29 @@
+{
+    "name": "zhangchenxi/easy_swoole_frame",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "zhangchenxi2019",
+            "email": "zhangchenxi2019@gmail.com"
+        }
+    ],
+    "require": {
+        "zhangchenxi/easy_swoole": "dev-master",
+        "firebase/php-jwt": "^5.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        },
+        "files": [
+            "vendor/zhangchenxi/easy_swoole/src/Support/Helper.php"
+        ]
+    },
+    "repositories": {
+        "zhangchenxi": {
+            "type": "path",
+            "url" : "../easy_swoole"
+        }
+    }
+}
